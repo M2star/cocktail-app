@@ -1,0 +1,14 @@
+.filter-container{margin: 6rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+}
+
+.filter-title{
+    font-size: 2rem;
+    color: grey;
+    font-weight: 700;
+    margin: 1rem;
+}

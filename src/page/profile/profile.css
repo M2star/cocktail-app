@@ -1,0 +1,128 @@
+.profile{
+    display: flex;
+    flex-direction: column;
+     background: linear-gradient(360deg, black 7%, white 100%);
+    height: 20rem;
+    position: relative;
+    height: 43vh;
+  
+    
+}
+.cover-img{
+    position: absolute;
+    object-fit: contain;
+   
+}
+.user-profile{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    top: 13rem;
+    margin: 0 2rem;
+
+ }
+    
+.user-info{
+color:white ;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+
+.user-img{
+    width: 10%;
+    border: 4px solid white;
+}
+
+.user-info>:nth-child(1){
+    font-size: 1.5rem;
+    
+}
+
+
+@media (max-width:775px) {
+    .profile{
+     background: linear-gradient(360deg, black 32%, white 100%);
+
+    }
+
+    user-img{
+        width: 10%;
+    }
+
+    .user-info>:nth-child(1){
+        font-size: 1.2rem;
+    }
+    
+
+}
+
+
+@media (max-width:575px) {
+    .profile{
+     background: linear-gradient(360deg, black 50%, white 100%);
+     }
+
+    .user-img{
+        width: 100px;
+        height: 100px;
+    }
+    .cover-img{
+        width: 50%;
+        opacity: .5;
+        
+    }
+
+    .user-profile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+   
+    }
+    
+
+    .user-info>:nth-child(1){
+        font-size: 1.2rem;
+    }
+    
+    .user-info{
+        color:black
+    }
+
+}
+
+@media (max-width:375px) {
+    .profile{
+     background: linear-gradient(360deg, black 100%, white 100%);
+     }
+
+    .user-img{
+        width: 100px;
+        height: 100px;
+    }
+    .cover-img{
+        width: 50%;
+        opacity: .5;
+        
+    }
+
+    .user-profile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        left: 3rem;
+    }
+    
+
+    .user-info>:nth-child(1){
+        font-size: 1.2rem;
+    }
+    
+    .user-info{
+        color:black
+    }
+
+}

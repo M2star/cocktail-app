@@ -1,0 +1,29 @@
+.pageNotFound{
+    height: calc(100vh - 13.7rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pageNotFound img{
+    width: 100%;
+    object-fit: contain;
+    
+}
+
+.pageNotFound button{
+    background-color: #000;
+    color: white;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    padding: .8rem 2rem;
+    outline :none;
+    border: none;
+    font-size: 1rem;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius:25px ;
+    cursor: pointer;
+    margin-top:2.5rem 
+}
